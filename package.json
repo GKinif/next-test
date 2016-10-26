@@ -1,0 +1,16 @@
+{
+  "name": "next-test",
+  "version": "0.0.1",
+  "description": "Small test using React with Next",
+  "main": "pages/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "next"
+  },
+  "keywords": ["React", "Next"],
+  "author": "TheWalkingDesign",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^1.0.0"
+  }
+}
