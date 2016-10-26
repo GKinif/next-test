@@ -66,7 +66,7 @@ module.exports =
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "06995a7d79cec6929e1f"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "7a8c2bb6c1f0d6357653"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -10193,6 +10193,15 @@ module.exports =
 
 	    (0, _createClass3.default)(UserServices, [{
 	        key: 'getUsers',
+
+	        /**
+	         * Get a list of user from the site randomuser.me
+	         * 
+	         * @param {Number} amount
+	         * @returns {PromiseLike}
+	         * 
+	         * @memberOf UserServices
+	         */
 	        value: function getUsers(amount) {
 	            return new _promise2.default(function (resolve, reject) {
 	                var xhr = new XMLHttpRequest();

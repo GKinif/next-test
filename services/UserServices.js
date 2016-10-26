@@ -1,4 +1,12 @@
 export default class UserServices {
+    /**
+     * Get a list of user from the site randomuser.me
+     * 
+     * @param {Number} amount
+     * @returns {PromiseLike}
+     * 
+     * @memberOf UserServices
+     */
     getUsers(amount) {
         return new Promise(function (resolve, reject) {
             const xhr = new XMLHttpRequest();
