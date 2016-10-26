@@ -1,5 +1,5 @@
 import React from 'react'
-import css from 'next/css'
+import css, {insertRule} from 'next/css'
 
 import PageHeader from '../components/PageHeader';
 import Menu from '../components/Menu';
@@ -15,11 +15,13 @@ export default () => (
 );
 
 const style = css({
-  background: 'red',
-  ':hover': {
-    background: 'gray'
-  },
-  '@media (max-width: 600px)': {
-    background: 'blue'
-  }
+    background: 'red',
+    ':hover': {
+        background: 'gray'
+    },
+    '@media (max-width: 600px)': {
+        background: 'blue'
+    }
 });
+
+insertRule('html, body { padding: 0; background: #ccc; }');

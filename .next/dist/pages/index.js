@@ -45,6 +45,8 @@ var style = (0, _css2.default)({
         background: 'blue'
     }
 });
+
+(0, _css.insertRule)('html, body { padding: 0; background: #ccc; }');
     if (module.hot) {
       module.hot.accept()
       if (module.hot.status() !== 'idle') {
