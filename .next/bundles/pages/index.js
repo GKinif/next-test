@@ -66,7 +66,7 @@ module.exports =
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "e1d1f176c1ad501aca19"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "06995a7d79cec6929e1f"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -9788,7 +9788,7 @@ module.exports =
 
 	var _PageHeader2 = _interopRequireDefault(_PageHeader);
 
-	var _Menu = __webpack_require__(173);
+	var _Menu = __webpack_require__(172);
 
 	var _Menu2 = _interopRequireDefault(_Menu);
 
@@ -9860,8 +9860,7 @@ module.exports =
 	};
 
 /***/ },
-/* 172 */,
-/* 173 */
+/* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9894,7 +9893,7 @@ module.exports =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _link = __webpack_require__(174);
+	var _link = __webpack_require__(173);
 
 	var _link2 = _interopRequireDefault(_link);
 
@@ -9949,7 +9948,7 @@ module.exports =
 	exports.default = _class;
 
 /***/ },
-/* 174 */
+/* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';

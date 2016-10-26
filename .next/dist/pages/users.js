@@ -20,6 +20,10 @@ var _Menu = require('../components/Menu');
 
 var _Menu2 = _interopRequireDefault(_Menu);
 
+var _UserList = require('../components/Users/UserList');
+
+var _UserList2 = _interopRequireDefault(_UserList);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = function () {
@@ -31,7 +35,12 @@ exports.default = function () {
         _react2.default.createElement(
             'div',
             null,
-            'Users'
+            _react2.default.createElement(
+                'h1',
+                null,
+                'Users'
+            ),
+            _react2.default.createElement(_UserList2.default, null)
         )
     );
 };
